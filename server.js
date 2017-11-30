@@ -58,7 +58,7 @@ const multerConf = {
   }
 };
 
-app.get("/", function(req,res) {
+app.get("https://realtor-dazaev-app.herokuapp.com/", function(req,res) {
 	res.render('index', {});
 });
 
