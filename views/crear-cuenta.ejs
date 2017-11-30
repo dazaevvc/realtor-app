@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<div class="nav">
+		<ul class="nav-2">
+			<div class="home-stuff">
+				<h1 class"titleLogo">r<span>e</span>altors</h1>
+				<img src="/images/house-logo.png">
+			</div>
+			<div style="padding-top: 40px;">
+				<li class="home-options"><a href="/">Home</a></li>
+				<li class="home-options"><a href="/brokers">Brokers</a></li>
+				<li class="home-options"><a href="/crear-cuenta">Crear cuenta</a></li>
+				<li class="home-options"><a href="/ver-ofertas">Ver Ofertas</a></li>
+			</div>
+		</ul>
+	</div>
+
+		<h2>CREAR UNA CUENTA</h2>
+
+   <article>
+     <form id="restForm">
+       <input class="restInput" type="text" name="nombre" placeholder="Nombre" id="nombre">
+       <input class="restInput" type="text" name="compañia" placeholder="Compañia Inmobiliaria" id="compañia">
+       <input class="restInput" type="text" name="telefono" placeholder="Telefono" id="telefono">
+       <input class="restInput" type="text" name="email" placeholder="Email" id="email">
+			 <br>
+       <button onclick="location.href = '/brokers/';" type="submit" id="addRest"><a href="/brokers/">Submit</a></button>
+     </form>
+     <dir id="errorText"></dir>
+
+
+
+
+   </article>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src = "/scripts/crear-cuenta.js" charset="utf-8"></script>
+</body>
+</html>

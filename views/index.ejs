@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+			<div class="nav">
+      	<ul class="nav-2">
+					<div class="home-stuff">
+	      		<h1 class"titleLogo">r<span>e</span>altors</h1>
+						<img src="/images/house-logo.png">
+					</div>
+					<div style="padding-top: 40px;">
+						<li class="home-options"><a href="/">Home</a></li>
+	        	<li class="home-options"><a href="/brokers">Brokers</a></li>
+	        	<li class="home-options"><a href="/crear-cuenta">Crear cuenta</a></li>
+	          <li class="home-options"><a href="/ver-ofertas">Ver Ofertas</a></li>
+					</div>
+      	</ul>
+    	</div>
+	<!-- <div class="fadein">
+		 <img src="/images/house-draw.jpg">
+		 <img src="/images/house-keys.jpg">
+		 <img src="/images/house-pool.jpg">
+		 <img src="/images/se-vende.jpg">
+</div> -->
+
+<div id="slideshow">
+   <div>
+		 <img src="/images/house-people.jpg">
+		 	<div class="image-box">
+		 		<h2 class="image-text">ENCUENTRA LA <br><span>CASA</span><br> QUE BUSCAS!
+					<br>
+					<br>
+					<a class="signAnchor" href="/crear-cuenta"><button class="signBtn" type="button" name="button">Crear Cuenta</button></a>
+				</h2>
+			</div>
+   </div>
+   <div>
+		 <img src="/images/house-sign.jpg">
+		 <div class="image-box">
+			 <h2 class="image-text">RENTA TUS <br><span>PROPIEDADES!</span>
+				 <br>
+				 <br>
+				 <a class="signAnchor" href="/crear-cuenta"><button class="signBtn" type="button" name="button">Crear Cuenta</button></a>
+			 </h2>
+		 </div>
+   </div>
+   <div>
+		 <img src="/images/house-contract.jpg">
+		 <div class="image-box">
+			 <h2 class="image-text">ENCUENTRA <br><span>CLIENTES!</span>
+				 <br>
+				 <br>
+				 <a class="signAnchor" href="/crear-cuenta"><button class="signBtn" type="button" name="button">Crear Cuenta</button></a>
+			 </h2>
+		 </div>
+   </div>
+   <div>
+		 <img src="/images/se-vende.jpg">
+		 <div class="image-box">
+			 <h2 class="image-text">VENDE TUS <br><span>PROPIEDADES</span>
+				 <br>
+				 <br>
+				 <a class="signAnchor" href="/crear-cuenta"><button class="signBtn" type="button" name="button">Crear Cuenta</button></a>
+			 </h2>
+		 </div>
+   </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script>
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+</script>
+</body>
+</html>

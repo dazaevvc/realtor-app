@@ -1,0 +1,307 @@
+h1 {
+	font-family: 'Lato', sans-serif;
+	color: #000000;
+	/*color: #270722;*/
+	/*color: #ebeaed;*/
+	font-size: 69px;
+  font-weight: bold;
+	margin: auto 0;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+  /*font-family: 'Open Sans', sans-serif;*/
+	color: #FFFFFF;
+  /*color: #ebeaed;*/
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+
+}
+
+body {
+	background: #000000;
+  /*background: #0f0c29;*/
+  /*background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);*/
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  list-style: none;
+	background-color: #FFFFFF;
+  /*background-color: #262626;*/
+  text-align: center;
+  padding: 10px;
+	color: #E2DBBE;
+}
+.nav li {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 28px;
+  line-height: 0px;
+  height: 40px;
+
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+}
+
+.nav a {
+  text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #E61F27;
+  /*color: #ebeaed;*/
+  display: inline-block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+	color: #505050;
+  /*background-color: #005f5f;*/
+}
+
+.submit {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+form input {
+  font-family: 'Work Sans', sans-serif;
+	background-color: #F7ECE4;
+}
+
+form button {
+  font-family: 'Work Sans', sans-serif;
+	background-color: #E61F27;
+	color: #FFFFFF;
+	border-radius: 10px;
+	font-size: 13px;
+}
+
+button.foodButton a {
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+	background-color: #E61F27;
+	color: #EED7C5;
+	font-size: 13px;
+}
+
+button#addRest a {
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+	background-color: #E61F27;
+	color: #EED7C5;
+	font-size: 13px;
+}
+
+button#addFood a {
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+	background-color: #E61F27;
+	color: #EED7C5;
+	font-size: 13px;
+}
+
+.foodButton{
+	background-color: #E61F27;
+	border-radius: 10px;
+}
+
+#realtor .name {
+  font-family: 'Open Sans', sans-serif;
+  color: #3A1D36;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  letter-spacing: 1px;
+}
+
+#realtor {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#realtor .foodHeader {
+  font-family: 'Open Sans', sans-serif;
+  color: #3A1D36;
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+form#restForm {
+	display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  align-items: center;
+	text-align: center;
+}
+
+form#foodForm {
+	display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  align-items: center;
+	text-align: center;
+}
+
+#food-logo {
+	width: 20%;
+	height: 20%;
+	padding-right: 2%;
+}
+
+.indexMessage{
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.textMessage {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #F7ECE4;
+	padding-bottom: 23px;
+}
+
+.welcomeMessage {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #3A1D36;
+	font-size: 39px;
+  font-weight: bold;
+	margin-bottom: inherit;
+	margin-top: 20px;
+}
+
+.welcomeP {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	padding: 0 15px;
+}
+
+.foodInput {
+	width: 20%;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.signBtn {
+	  font-family: 'Work Sans', sans-serif;
+		background-color: #000000;
+		color: #FFFFFF;
+		border-radius: 10px;
+		font-size: 38px;
+		padding: 10px 10px;
+		transition: all 0.3s ease 0s;
+}
+
+.signBtn:hover {
+	background-color: #E61F27;
+}
+
+div.foodLeft {
+	background-color: #FFFFFF;
+	border: 2px solid #3C1D36	;
+	padding: 5px 5px;
+  margin-bottom: 4px;
+	color: black;
+	text-align: left;
+}
+
+.foodLeft1 {
+	background-color: #FFFFFF;
+	border: 2px solid #3C1D36	;
+	padding: 5px 5px;
+  margin-bottom: 4px;
+	color: black;
+	text-align: center;
+	width: 40%;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.restInput {
+	font-size: 20px;
+	margin-bottom: 10px;
+	width: 20%;
+}
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.nav-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.home-stuff {
+	display: flex;
+	flex-direction: row;
+}
+
+h1 span {
+	color: #E61F27;
+}
+
+#listings {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.image-text {
+	 position: absolute;
+	 top: 30px;
+	 color: white;
+   font: 24px/45px 'Work Sans', Sans-Serif;
+   letter-spacing: -1px;
+   background: rgba(0, 0, 0, 0.7);
+	 width: 40%;
+	 padding-top: 60px;
+	 padding-bottom: 30px;
+}
+
+.image-box {
+	color: white;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h2 span {
+	font-family: 'Open Sans', Sans-Serif;
+	font-size: 45px;
+	color: #E61F27;
+}
